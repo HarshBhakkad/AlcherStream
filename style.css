@@ -1,0 +1,223 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#main-heading{
+    width: 100%;
+    height: 603px;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(bg.png);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-rows: auto 90% ;
+}
+#header{
+    display:grid;
+    margin: 30px 30px 0px 30px;
+    grid-template-columns: 95% auto;
+    justify-content: space-between;
+}
+input {
+    background: rgba(255, 255, 255, 0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: white solid 4px;
+    position: relative;
+    display: block;
+    outline: none;
+    width: 50%;
+    min-width: 230px;
+    height: 45p;
+    margin-bottom: 15px;
+    color: white;
+}
+#stream{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#text{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4vw;
+    -webkit-text-stroke: 0.05em whitesmoke;
+    -webkit-text-fill-color: transparent;
+}
+.btn-1{
+    font-family: Hack, monospace;
+    background: deeppink;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1vw;
+    padding: 1.5rem;
+    border: 0;
+    border-radius: 10px;
+    width: auto;
+    position: relative;
+}
+.btn-1:hover{
+    background: deeppink;
+    transform: scale(1.1);
+    transition: display 5s;
+}
+.btn-1:not(:hover) .hide {
+    display: none;
+}
+.movie-div{
+  display: grid;
+  
+  padding: 25px 15px;
+  margin-top: 15px;
+}
+
+.avg-img{
+  width: 300px;
+}
+.movie-div:hover{
+  transform: scale(1.5);
+}
+
+footer {
+    background: #16222A;
+    background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+    background: linear-gradient(59deg, #3A6073, #16222A);
+    color: white;
+    margin-top:100px;
+  }
+  
+  footer a {
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.2s;
+  }
+  
+  footer a:hover {
+    color: #FA944B;
+    text-decoration: none;
+  }
+  
+  .copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #FFFFFF;
+  }
+  
+  .footer-middle {
+    padding-top: 2em;
+    color: white;
+  }
+  
+  
+  /*SOCİAL İCONS*/
+  
+  /* footer social icons */
+  
+  ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+  }
+  
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  
+  /* footer social icons */
+  
+  .social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+  }
+  
+  .social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+  }
+  
+  .social-network a.icoFacebook:hover i,
+  .social-network a.icoLinkedin:hover i {
+    color: #fff;
+  }
+  
+  .social-network a.socialIcon:hover,
+  .socialHoverClass {
+    color: #44BCDD;
+  }
+  
+  .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+  
+  .social-circle li i {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  .social-circle li a:hover i,
+  .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  
+  .social-circle i {
+    color: #595959;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    transition: all 0.7s;
+  }
+  
+  .social-network a {
+    background-color: #F9F9F9;
+  }
+  .ic {
+    background-color: whitesmoke;
+    height: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.ic:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+footer {
+    background-color:darkgrey;
+    
+}
+.icons {
+    display: flex,block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 6vw;
+    padding-bottom: 3vw;
+    
+}
+.last {
+    color: whitesmoke;
+    font-family: 'Gugi';
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
