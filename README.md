@@ -7,4 +7,3 @@ A search engine which allows you to search for any movie and get their IMDB rati
 ## Screenshots
 
 <img src="2022-07-09 (1).png" />
-<img src="2022-07-09.png" />
